@@ -22,7 +22,7 @@
 # define MIN(a,b) (a < b) ? a : b
 
 /*
-**	Pour imprimer et garder en memoire la quantiter imprimer
+**	Pour imprimer et garder en memoire la quantiter imprimee
 */
 
 static int ft_write(const char * s, int n)
@@ -61,7 +61,7 @@ static const char *find_pc(const char *s)
 }
 
 /*
-**	Pour un affichage efficasse de Width et precision
+**	Pour un affichage efficace de Width et precision
 */
 
 static void	 p_width(int n)
@@ -98,7 +98,7 @@ static void print_string(const char *s, int width, int preciz)
 }
 
 /*
-**	impression %d %x (mais aussi %o ou memem %p)
+**	impression %d %x (mais aussi %o ou meme %p)
 */
 
 static void printf_num(long int n, int width, int preciz, int base)
